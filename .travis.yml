@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t sis88/docker-react -f Dockerfile.dev .
+  - docker build -t sis88/docker-react Dockerfile.dev .
   
   
 script:
